@@ -8,4 +8,4 @@ data:
   MLFLOW_S3_ENDPOINT_URL: http://minio-service.mlops.svc.cluster.local:9000
   MLFLOW_MODEL_NAME: diabetes-classifier
   CHAMPION_ALIAS: champion
-  MODEL_CACHE_TTL_SECONDS: "300"
+  MODEL_CACHE_TTL_SECONDS: "600"
